@@ -302,6 +302,7 @@ img {
   }
 }
 
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
 
 * {
@@ -321,10 +322,10 @@ a {
 }
 
 .product-card {
-  width: 250px;
+  width: 100px;
   position: relative;
   box-shadow: 0 2px 7px #dfdfdf;
-  margin: 50px auto;
+  margin: 10px auto;
   background: #fafafa;
 }
 
@@ -433,7 +434,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 .product-card {
@@ -445,12 +446,31 @@ a {
 
 @media screen and (max-width: 767px) {
   .product-card {
-    width: calc(50% - 10px);
+    width: calc(50% - 20px);
     margin-left: 0px;
     margin-right: 5px;
     /* Two cards in a row on mobile with a 10px gap */
   }
+
+  .product-bottom-details div {
+    width: 50%;
+  }
+
+  .product-links {
+    text-align: none;
+ }
+
+ .product-bottom-details div {
+    float: none;
+    width: 50%;
 }
+
+.product-details {
+    padding: 2px;
+}
+}
+
+
 
 
 
