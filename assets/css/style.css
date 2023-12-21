@@ -21,6 +21,9 @@ img {
         background: #11101D !important;
         outline: none;
         border: none !important;
+        color: #fff;
+        font-size: .9rem !important;
+        padding: .3rem .7rem !important;
     }
 
 .sidebar {
@@ -322,7 +325,7 @@ a {
 }
 
 .product-card {
-  width: 100px;
+  /* width: 100px; */
   position: relative;
   box-shadow: 0 2px 7px #dfdfdf;
   margin: 10px auto;
@@ -334,7 +337,7 @@ a {
   left: 0;
   top: 20px;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 13px !important;
   font-weight: 700;
   background: red;
   color: #fff;
@@ -396,7 +399,7 @@ a {
 }
 
 .product-price {
-  font-size: 18px;
+  font-size: 14px;
   color: #11101D;
   font-weight: 600;
 }
@@ -427,18 +430,8 @@ a {
 }
 
 
-
-
-
-.brand-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-left: 5px;
-}
-
 .product-card {
-  width: calc(25% - 10px);
+  /* width: calc(25% - 10px); */
   /* Four cards in a row on full screen with a 10px gap */
   margin-bottom: 15px;
   margin-left: 15px;
@@ -446,7 +439,7 @@ a {
 
 @media screen and (max-width: 767px) {
   .product-card {
-    width: calc(50% - 20px);
+    /* width: calc(50% - 20px); */
     margin-left: 0px;
     margin-right: 5px;
     /* Two cards in a row on mobile with a 10px gap */
@@ -517,13 +510,6 @@ label {
   width: 1px;
   overflow: hidden;
 }
-
-.brand-section {
-  margin-right: 10px;
-  margin-top: 30px;
-}
-
-
 
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,700);
